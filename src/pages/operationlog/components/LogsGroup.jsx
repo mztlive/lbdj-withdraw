@@ -77,6 +77,7 @@ const LogsGroup = (props) => {
                     {bankMap[item.bankCode] + "-" + item.bankCard}
                   </span>
                 </span>
+                <span class="text-gray-400">申请时间：{item.applyTime}</span>
                 <span class="text-gray-400">
                   操作时间：{item.operationTime}
                 </span>
