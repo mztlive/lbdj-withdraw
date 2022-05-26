@@ -129,7 +129,6 @@ function MainIndex() {
   });
 
   return (
-    // <HopeProvider>
     <div class="container p-3.5 text-center	">
       <Statistics />
       <Switch>
@@ -192,27 +191,7 @@ function MainIndex() {
         }}
         onOk={handlerReject}
       ></RejectModal>
-
-      {/* <Modal size={"xs"} opened={isOpen()} onClose={onClose}>
-          <ModalOverlay />
-          <ModalContent>
-            <ModalCloseButton />
-            <ModalHeader>你确定已经打款了吗？</ModalHeader>
-            <ModalBody>
-              <p>请谨慎操作，避免引起和客户的纠纷</p>
-            </ModalBody>
-            <ModalFooter>
-              <button
-                onClick={() => confirmWithdraw()}
-                class="justify-self-end text-sm self-center bg-red-400 rounded text-white p-1.5 h-8"
-              >
-                确认
-              </button>
-            </ModalFooter>
-          </ModalContent>
-        </Modal> */}
     </div>
-    // </HopeProvider>
   );
 }
 

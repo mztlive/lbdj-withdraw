@@ -71,4 +71,12 @@ export default {
       password: password,
     });
   },
+
+  operationLogs(date) {
+    return request.get("/operations", {
+      params: {
+        time: date,
+      },
+    });
+  },
 };

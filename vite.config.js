@@ -6,8 +6,9 @@ export default defineConfig({
   build: {
     target: "esnext",
     polyfillDynamicImport: false,
+    cssTarget: ["chrome52"],
   },
   postcss: {
-    plugins: [require("tailwindcss"), require("autoprefixer")],
+    plugins: [],
   },
 });
