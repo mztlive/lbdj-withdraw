@@ -82,7 +82,7 @@ const LogsGroup = (props) => {
                   操作时间：{item.operationTime}
                 </span>
                 <span class="text-gray-400 font-bold">
-                  操作类型：{item.status == 1 ? "已打钱" : "驳回"}
+                  操作类型：{item.status == 1 ? "拨款成功" : "驳回"}
                 </span>
                 <span class="text-gray-400 font-bold">
                   操作者：{item.adminName}

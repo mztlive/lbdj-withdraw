@@ -155,7 +155,7 @@ function MainIndex() {
                     onClick={() => showConfirmModal(item.id)}
                     class="btn btn-success btn-sm"
                   >
-                    确认打钱
+                    确认拨款
                   </button>
                   <button
                     class="btn btn-error btn-sm"
